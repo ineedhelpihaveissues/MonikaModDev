@@ -1,0 +1,24 @@
+[code]
+I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script-farewells.rpy", line 7, in script
+  File "game/script-farewells.rpy", line 8, in <module>
+NameError: name 'addEvent' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script-farewells.rpy", line 7, in script
+  File "C:\Users\Owner\Downloads\New folder\steamapps\common\Doki Doki Literature Club\renpy\ast.py", line 814, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Owner\Downloads\New folder\steamapps\common\Doki Doki Literature Club\renpy\python.py", line 1719, in py_exec_bytecode
+    exec bytecode in globals, locals
+  File "game/script-farewells.rpy", line 8, in <module>
+NameError: name 'addEvent' is not defined
+
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Monika After Story 0.6.2
+[/code]
+I downloaded all the mod files and now my game wont start. I want to keep all the mods but i really need help fixing it
